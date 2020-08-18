@@ -1,6 +1,7 @@
 import time
 radious = int(input("Enter your radious: "))
 def area_of_circle(radius):
+    """Area of a circle"""
     area = radius * radious * 3.142
     print("Calculating area...")
     time.sleep(2)
